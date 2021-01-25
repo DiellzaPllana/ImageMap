@@ -1,0 +1,95 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(images/bg2.png);
+    height: fit-content;
+    
+}
+.container_12{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Texturina;
+}
+#foto1{
+    margin-left: -40px;
+    margin-top: 40px;
+    box-shadow: 10px 10px #ececec;
+    /* float: left; */
+    
+}
+.shkrim{
+    /* float: right; */
+    margin-top: 100px;
+    margin-left: 300px; 
+   
+   
+}
+
+.shkrim h1{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 200px;
+  /* text-shadow: 1px 1px orange; */
+}
+.shkrim p{
+    margin-left: 100px;
+}
+.shkrim a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid orange;
+    padding-top: 50px;
+}
+#p,#p1{
+    display: inline;
+}
+#paragrafi p{
+    display: none;
+    width: 550px;
+}
+#paragrafi :target{
+    display: block;
+    margin-bottom: 0;
+    position: absolute;
+}
+#foto{
+    /* margin-left: 160px; */
+    margin-top: 20px;
+    box-shadow: 5px 5px #ececec;
+    margin-left: 100px;
+    
+}
+#foto3{
+    margin-left: 150px;
+    margin-top: 20px;
+    box-shadow: 5px 5px #ececec;
+}
+#foto4{
+    /* margin-left: 150px; */
+    margin-top: 20px;
+    box-shadow: 5px 5px #ececec;
+}
+#nr{
+    margin-left: 100px;
+}
+#foto5{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.albania{
+    /* margin-left: -30px; */
+    margin-top: 200px;
+    background-color: white;
+    box-shadow: 5px 5px orange;
+    padding: 20px;
+}
+.harta{
+    margin-left: -50px;
+}
+.albania p{
+    font-size: 2em;
+}
